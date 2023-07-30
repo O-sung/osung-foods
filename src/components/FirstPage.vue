@@ -47,13 +47,13 @@
       </nav>
 
       <div class="text-center text-white px-2 sm:px-8">
-        <h1 class="font-bold text-base mb-6 lg:text-[4rem]/[4rem] px-md-4">
+        <h1 class="font-bold text-lg mb-6 lg:text-[4rem]/[4rem] px-md-4">
           ENJOY DELICIOUS AND NUTRTIOUS MEALS
         </h1>
 
         <div>
           <P
-            class="text-xs/5 max-w-[22rem] m-auto mb-6 max-[300px]:max-w-[20rem] lg:max-w-none lg:text-[1.35rem]/[2rem] lg:font-medium"
+            class="text-sm/5 max-w-[22rem] m-auto mb-6 max-[300px]:max-w-[20rem] lg:max-w-none lg:text-[1.35rem]/[2rem] lg:font-medium"
           >
             We make you want to come back for more by providing delicious delicacies for you at
             ridiculously cheap prices and we also save you the stress of cooking. We are always at
@@ -105,7 +105,7 @@
           <div class="text-box">
             <h3 class="text-red-600 font-[600] text-base mb-2 lg:text-2xl">FRESH INGREDIENTS</h3>
             <p
-              class="text-gray-800 text-xs/5 m-auto max-w-[22rem] max-[400px]:max-w-[20rem] lg:max-w-none lg:text-[1.21rem]/[2rem]"
+              class="text-gray-800 text-sm/5 m-auto max-w-[22rem] max-[400px]:max-w-[20rem] lg:max-w-none lg:text-[1.21rem]/[2rem]"
             >
               All our food are prepared with fresh and healthy ingredients in order to give our
               esteemed customers tasty and healthy meal.
@@ -121,7 +121,7 @@
           <div class="text-box">
             <h3 class="text-red-600 font-[600] text-base mb-2 lg:text-2xl">HANDMADE MOZARELLA</h3>
             <p
-              class="text-gray-800 text-xs/5 m-auto max-w-[22rem] max-[400px]:max-w-[20rem] lg:max-w-none lg:text-[1.21rem]/[2rem]"
+              class="text-gray-800 text-sm/5 m-auto max-w-[22rem] max-[400px]:max-w-[20rem] lg:max-w-none lg:text-[1.21rem]/[2rem]"
             >
               Enjoy the taste of our freshly prepared healthy hand-made Mozarella. Sometimes, all
               you need to relieve you of your stress is a delicious meal made entirely by hand and
@@ -140,7 +140,7 @@
               "SECRET RECIPE" SAUCE
             </h3>
             <p
-              class="text-gray-800 text-xs/5 m-auto max-w-[22rem] max-[400px]:max-w-[20rem] lg:max-w-none lg:text-[1.21rem]/[2rem]"
+              class="text-gray-800 text-sm/5 m-auto max-w-[22rem] max-[400px]:max-w-[20rem] lg:max-w-none lg:text-[1.21rem]/[2rem]"
             >
               We cook food like no other using our "secret recipe" sauce which makes our food
               tastier, sweeter and even healthier because we use medicinal and all natural recipe
@@ -156,7 +156,7 @@
       <div class="bring-sect text-white text-center py-8 px-4 px-md-12 py-md-12">
         <div class="bring-head">
           <h3 class="font-bold text-lg mb-4 lg:text-5xl">BRINGING HAPPINESS TO YOU</h3>
-          <p class="text-xs/5 md:max-w-xl md:m-auto lg:max-w-fit lg:text-[1.35rem]/[2rem]">
+          <p class="text-sm/5 md:max-w-xl md:m-auto lg:max-w-fit lg:text-[1.35rem]/[2rem]">
             You need not worry about anything concerning your meal! We cook them and we deliver them
             to you at your convenience where ever, whenever. Order your food now or book a table at
             any branch of our restaurant.
@@ -198,7 +198,7 @@
               SPECIAL MEALS PREPARED JUST FOR YOU!
             </h3>
 
-            <p class="text-xs/5 m-auto mb-3 px-2 lg:text-[1.3rem]/[2rem]">
+            <p class="text-sm/5 m-auto mb-3 px-2 lg:text-[1.3rem]/[2rem]">
               We have a list of available healthy meals prepared just for you today! Order now, eat
               and have a fantastic day ahead!
             </p>
@@ -272,7 +272,7 @@
               FIND OSUNG FOODS NEAR YOU
             </h3>
 
-            <p class="text-xs/5 m-auto mb-3 lg:text-[1.3rem]/[2rem]">
+            <p class="text-sm/5 m-auto mb-3 lg:text-[1.3rem]/[2rem]">
               We have our branches in several locations in the country. We have listed them below
               for easy accessibility just in case our esteemed customers would love to book a table
               or buy food physically.
@@ -283,28 +283,28 @@
         <div class="grid grid-cols-2 text-center justify-center gap-x-2 gap-y-5">
           <div>
             <p class="text-xs mt-3 text-red-400 font-semibold lg:text-2xl mt-md-12">LAGOS</p>
-            <p class="text-xs/5 mt-1 lg:text-lg mt-md-2">
+            <p class="text-sm/5 mt-1 lg:text-lg mt-md-2">
               Beside First Bank, Olusosun, Ojota Lagos, Lagos State.
             </p>
           </div>
 
           <div>
             <p class="text-xs mt-3 text-red-400 font-semibold lg:text-2xl mt-md-12">AKURE</p>
-            <p class="text-xs/5 mt-1 lg:text-lg mt-md-2">
+            <p class="text-sm/5 mt-1 lg:text-lg mt-md-2">
               Redemption Road, FUTA Southgate, Akure, Ondo State.
             </p>
           </div>
 
           <div>
             <p class="text-xs mt-3 text-red-400 font-semibold lg:text-2xl mt-md-12">ADO EKITI</p>
-            <p class="text-xs/5 mt-1 lg:text-lg mt-md-2">
+            <p class="text-sm/5 mt-1 lg:text-lg mt-md-2">
               Opposite DSS Office, Along New Iyin Road, Ado Ekiti, Ekiti State.
             </p>
           </div>
 
           <div>
             <p class="text-xs mt-3 text-red-400 font-semibold lg:text-2xl mt-md-12">IBADAN</p>
-            <p class="text-xs/5 mt-1 lg:text-lg mt-md-2">
+            <p class="text-sm/5 mt-1 lg:text-lg mt-md-2">
               Opposite Chicken Republic, Challenge Road, Ibadan, Oyo State.
             </p>
           </div>
@@ -328,7 +328,7 @@
 
         <div class="lg:text-left flex-3">
           <div>
-            <p class="text-xs/5 m-auto lg:text-[1.3rem]/[2rem] lg:mb-4">
+            <p class="text-sm/5 m-auto lg:text-[1.3rem]/[2rem] lg:mb-4">
               We are opened to collaborate with individuals or companies that are willing to help
               expand the organization and further project the her good image within the country and
               beyond the borders of this nation.
@@ -361,7 +361,7 @@
 
           <div class="lg:text-left flex-3">
             <div class="mb-4">
-              <p class="text-xs/5 m-auto lg:text-[1.3rem]/[2rem] lg:mb-4">
+              <p class="text-sm/5 m-auto lg:text-[1.3rem]/[2rem] lg:mb-4">
                 Download our app now and your first order will be delivered to FREE of charge and
                 you will get a bottle of wine as a souvenir.
               </p>

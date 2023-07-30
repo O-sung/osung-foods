@@ -188,7 +188,7 @@
       <div class="py-6 px-4 text-center py-md-16 relative">
         <div>
           <div>
-            <p class="text-[0.5rem] text-gray-600 lg:font-bold lg:text-sm lg:mb-4">
+            <p class="text-[0.8rem] font-semibold text-gray-600 lg:font-bold lg:text-sm lg:mb-4">
               CHOOSE YOUR DELICACY
             </p>
           </div>
@@ -264,7 +264,7 @@
       <div class="py-8 px-2 px-md-16 py-md-16">
         <div class="text-center">
           <div>
-            <p class="text-[0.5rem] font-semibold text-gray-600 lg:font-bold lg:text-sm lg:mb-4">
+            <p class="text-[0.8rem] font-semibold text-gray-600 lg:font-bold lg:text-sm lg:mb-4">
               OUR LOCATION
             </p>
           </div>
@@ -318,7 +318,7 @@
       <div class="text-center pb-4 px-4 px-md-16 lg:flex items-center gap-12">
         <div class="lg:text-left flex-2">
           <div>
-            <p class="text-[0.5rem] font-semibold text-gray-600 lg:font-bold lg:text-sm lg:mb-4">
+            <p class="text-[0.8rem] font-semibold text-gray-600 lg:font-bold lg:text-sm lg:mb-4">
               JOIN THE TABLE
             </p>
 
@@ -352,7 +352,7 @@
       <div class="py-6 pb-4 px-4 text-center px-md-16 lg:flex items-center gap-24">
         <div>
           <div class="lg:text-left">
-            <p class="text-[0.5rem] font-semibold text-gray-600 lg:font-bold lg:text-sm lg:mb-4">
+            <p class="text-[0.8rem] font-semibold text-gray-600 lg:font-bold lg:text-sm lg:mb-4">
               FREE DELIVERY!
             </p>
 

@@ -23,7 +23,7 @@ const app = createApp(App)
 
 app.use(vuetify)
 
-app.use(AOS.init())
+app.use(AOS.init)
 
 app.use(router)
 

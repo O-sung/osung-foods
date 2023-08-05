@@ -4,6 +4,12 @@
   </main>
 </template>
 
-<script setup>
-import FirstPage from '../components/FirstPage.vue'
+<script>
+import FirstPage from '@/components/FirstPage.vue'
+
+export default {
+  components: {
+    FirstPage
+  }
+}
 </script>

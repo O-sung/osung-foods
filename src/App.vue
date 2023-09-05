@@ -60,6 +60,14 @@ nav a:first-of-type {
   line-height: 1.5;
 }
 
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #cf2121;
+}
+
 /* @media (min-width: 1024px) {
   header {
     display: flex;

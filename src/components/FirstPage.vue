@@ -29,7 +29,10 @@
           </div>
 
           <div>
-            <div @click="openMenu" class="absolute right-6 translate-y-[-60%] sm:right-8 lg:hidden">
+            <div
+              @click="openMenu"
+              class="absolute right-6 translate-y-[-60%] z-50 sm:right-8 lg:hidden"
+            >
               <i
                 :class="[open ? 'fa-solid  fa-lg icon fa-xmark' : 'fa-solid  fa-lg icon fa-bars']"
               ></i>
@@ -37,10 +40,10 @@
           </div>
 
           <ul
-            class="flex flex-col gap-12 pl-[15%] pt-24 pb-52 w-[70%] bg-gray-800 text-white absolute top-0 duration-700 ease-in z-30 sm:w-[50%]"
-            :class="[open ? 'left-0' : 'left-[-100%]']"
+            class="px-6 flex flex-col gap-12 pt-24 pb-28 w-[100%] bg-gray-800 text-white text-center absolute top-0 left-0 duration-700 ease-in z-30"
+            :class="[open ? 'top-0' : 'top-[-200%]']"
           >
-            <li v-for="link in Links" :key="link.name">
+            <li v-for="link in Links" :key="link.name" class="border-b-2 border-[#494848] pb-4">
               <RouterLink :to="link.link">{{ link.name }}</RouterLink>
             </li>
           </ul>
@@ -190,7 +193,7 @@
         <div class="bring-head">
           <h3 class="font-bold text-lg mb-4 sm:text-2xl lg:text-5xl">BRINGING HAPPINESS TO YOU</h3>
           <p
-            class="text-sm/5 sm:text-base md:max-w-xl md:m-auto lg:max-w-fit lg:text-[1.35rem]/[2rem]"
+            class="m-auto text-sm/5 sm:text-base sm:max-w-[40rem] md:max-w-none md:m-auto lg:max-w-fit lg:text-[1.35rem]/[2rem]"
           >
             You need not worry about anything concerning your meal! We cook them and we deliver them
             to you at your convenience where ever, whenever. Order your food now or book a table at
@@ -234,7 +237,9 @@
               SPECIAL MEALS PREPARED JUST FOR YOU!
             </h3>
 
-            <p class="text-sm/5 m-auto mb-3 px-2 sm:text-base lg:text-[1.3rem]/[2rem]">
+            <p
+              class="text-sm/5 m-auto mb-3 px-2 sm:max-w-[40rem] sm:text-base lg:text-[1.3rem]/[2rem]"
+            >
               We have a list of available healthy meals prepared just for you today! Order now, eat
               and have a fantastic day ahead!
             </p>
@@ -333,7 +338,7 @@
               FIND OSUNG FOODS NEAR YOU
             </h3>
 
-            <p class="text-sm/6 m-auto mb-3 sm:text-base lg:text-[1.3rem]/[2rem]">
+            <p class="text-sm/6 m-auto mb-3 sm:max-w-[41rem] sm:text-base lg:text-[1.3rem]/[2rem]">
               We have our branches in several locations in the country. We have listed them below
               for easy accessibility just in case our esteemed customers would love to book a table
               or buy meals.
@@ -341,7 +346,9 @@
           </div>
         </div>
 
-        <div class="grid grid-cols-2 text-center justify-center gap-x-2 gap-y-5">
+        <div
+          class="m-auto grid grid-cols-2 text-center justify-center gap-x-2 gap-y-5 sm:max-w-[40rem]"
+        >
           <div>
             <p class="text-xs mt-3 text-red-400 font-semibold lg:text-2xl mt-md-12">LAGOS</p>
             <p class="text-sm/5 mt-1 lg:text-lg mt-md-2">
@@ -389,7 +396,9 @@
 
         <div class="lg:text-left flex-3">
           <div>
-            <p class="text-sm/5 m-auto sm:text-base lg:text-[1.3rem]/[2rem] lg:mb-4">
+            <p
+              class="text-sm/5 m-auto sm:max-w-[40rem] sm:text-base md:max-w-[45rem] lg:text-[1.3rem]/[2rem] lg:mb-4"
+            >
               We are opened to collaborate with individuals or companies that are willing to help
               expand the organization and further project the her good image within the country and
               beyond the borders of this nation.
@@ -421,7 +430,9 @@
 
           <div class="lg:text-left flex-3">
             <div class="mb-4">
-              <p class="text-sm/5 m-auto sm:text-base lg:text-[1.3rem]/[2rem] lg:mb-4">
+              <p
+                class="text-sm/5 m-auto sm:max-w-[40rem] sm:text-base lg:text-[1.3rem]/[2rem] lg:mb-4"
+              >
                 Download our app now and your first order will be delivered to you FREE of charge
                 and your meal comes with a bottle of wine as a souvenir.
               </p>
@@ -475,7 +486,7 @@
         </div>
 
         <div class="grid grid-cols-4 justify-center gap-8">
-          <div>
+          <div class="sm:max-w-[35rem]">
             <p class="text-lg">
               Enjoy food rich in taste and quality. Providing healthy meal and satisfying our
               customers in every way possible is our topmost priotiy at Osung Foods.

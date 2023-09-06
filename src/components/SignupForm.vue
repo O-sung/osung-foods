@@ -64,6 +64,7 @@ import { useField, useForm } from 'vee-validate'
 import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth'
 import { doc, setDoc } from 'firebase/firestore'
 import { fireApp, db } from '../main.js'
+// import EmailValidator from './EmailValidator.vue';
 
 const { handleSubmit, handleReset } = useForm({
   validationSchema: {
